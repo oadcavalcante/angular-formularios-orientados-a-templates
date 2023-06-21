@@ -25,6 +25,6 @@ export class MaiorIdadeDirective implements Validator {
     const anoAtual = new Date().getFullYear();
 
     const ehMaior = anoNascMais18 <= anoAtual;
-    return ehMaior ? null : { maiorIdadeValidator: true };
+    return ehMaior ? null : { "maiorIdadeValidator": true };
   }
 }
