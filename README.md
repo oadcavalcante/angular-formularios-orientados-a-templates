@@ -1,8 +1,57 @@
-# Angular: Formulários Orientados a Templates
+<div align="center">
 
-Este projeto explora a criação e o uso de formulários orientados a templates no Angular, demonstrando como implementar e configurar validações padrão e personalizadas, bem como validações assíncronas com o uso de APIs externas.
+<img src="src/assets/img/Logo.svg" width="120" alt="Angular Formulários" />
 
-## Funcionalidades do Projeto
+# Angular Formulários
+
+**Projeto Angular que demonstra formulários orientados a templates com validações síncronas, personalizadas e assíncronas via API.**
+
+<br />
+
+[![Repositório público](https://img.shields.io/badge/repo-público-2ea44f?style=flat-square&logo=github&logoColor=white)](https://github.com/oadcavalcante/angular-formularios-orientados-a-templates)
+
+<br />
+
+[![Angular 14](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logoColor=fff&logo=angular)](https://github.com/oadcavalcante/angular-formularios-orientados-a-templates) [![Bootstrap 5](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logoColor=fff&logo=bootstrap)](https://github.com/oadcavalcante/angular-formularios-orientados-a-templates)
+
+[![Karma](https://img.shields.io/badge/Karma-555555?style=flat-square)](https://github.com/oadcavalcante/angular-formularios-orientados-a-templates)
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logoColor=fff&logo=typescript)](https://github.com/oadcavalcante/angular-formularios-orientados-a-templates) [![RxJS](https://img.shields.io/badge/RxJS-B7178C?style=flat-square&logoColor=fff&logo=reactivex)](https://github.com/oadcavalcante/angular-formularios-orientados-a-templates) [![FormsModule](https://img.shields.io/badge/FormsModule-555555?style=flat-square)](https://github.com/oadcavalcante/angular-formularios-orientados-a-templates) [![Jasmine](https://img.shields.io/badge/Jasmine-555555?style=flat-square)](https://github.com/oadcavalcante/angular-formularios-orientados-a-templates)
+
+<br />
+
+[Stack completa ↓](#stack)
+
+<br />
+
+[Documentação](https://github.com/oadcavalcante/angular-formularios-orientados-a-templates/blob/main/README.md) · [Deploy](#deploy) · [Issues](https://github.com/oadcavalcante/angular-formularios-orientados-a-templates/issues)
+
+</div>
+
+## Features
+
+- ✨ Formulários orientados a template com ngModel e ngForm
+- 🚀 Validações padrão do HTML5 e Angular
+- ⚡ Diretivas validadoras personalizadas
+- 🎯 Validação assíncrona de CEP via API externa
+- 🔧 Interface com Bootstrap e layout responsivo
+- 📦 Exemplos práticos de cadastro com feedback de erros
+
+## Getting Started
+
+| Ambiente | Comando / Link |
+|----------|----------------|
+| Primeira vez | `npm install && ng serve` |
+| Documentação | [README](https://github.com/oadcavalcante/angular-formularios-orientados-a-templates/blob/main/README.md) |
+| Produção | N/A |
+
+## Stack
+
+- **Frontend:** Angular 14, Bootstrap 5
+- **Infra / DevOps:** Karma
+- **Outros:** TypeScript, RxJS, FormsModule, Jasmine
+
+---
 
 O projeto aborda os seguintes tópicos e funcionalidades:
 
@@ -27,15 +76,18 @@ O projeto aborda os seguintes tópicos e funcionalidades:
    ```bash
    git clone https://github.com/seu-usuario/formularios-angular.git
    cd formularios-angular
-   
+   ```
+
 2. **Instalar dependências:**
    ```bash
    npm install
-   
+   ```
+
 3. **Iniciar o servidor de desenvolvimento:**
-    ```bash
-    ng serve
-    ```
+   ```bash
+   ng serve
+   ```
+
 4. **Acesse o projeto em** _http://localhost:4200_
 
 ## Tecnologias Utilizadas
